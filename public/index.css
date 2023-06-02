@@ -159,16 +159,23 @@ h5 a {
     opacity: 0.6;
 }
 
-.price h5 a {
-    color:
-        #57585a;
+h5>a {
+    color: #070707;
     display: -webkit-box;
-    font-family: Montserrat;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 16px;
     margin: 0px 0px 10px;
     text-align: left;
-    text-transform: capitalize
+    text-transform: capitalize;
+}
+
+.price>a {
+    color: black;
+    display: inline;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
 }
 
 .bi-handbag {
