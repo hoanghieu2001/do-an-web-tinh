@@ -192,7 +192,26 @@ h5>a {
     /* text-align: center; */
     text-transform: uppercase;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
 }
 
-/* list-mix */
+/* tam giác */
+.triangle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 10vh; */
+    left: -9px;
+}
+
+#triangle-up {
+    position: absolute;
+    top: -448px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 10px solid rgb(169, 4, 4);
+}
