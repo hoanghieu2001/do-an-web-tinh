@@ -19,7 +19,9 @@ a.d-inline-flex {
     font-weight: 600;
     font-size: 25px;
 }
-
+header{
+    position: relative;
+}
 /* header{
     
    width: 100%;
@@ -48,7 +50,7 @@ a.nav-link.active {
 
 .nav-search {
     position: absolute;
-    right: 150px;
+    right: 30px;
 }
 
 /* .container {
