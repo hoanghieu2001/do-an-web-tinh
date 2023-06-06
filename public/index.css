@@ -21,7 +21,7 @@ a.d-inline-flex {
 }
 header{
     position: relative;
-    
+
 }
 /* header{
     
@@ -229,8 +229,8 @@ h5>a {
 
 #triangle-up {
     position: absolute;
-    top: -448px;
-    left: 0px;
+    top: 30px;
+    left: -9px;
     width: 0;
     height: 0;
     border-left: 0px solid transparent;
