@@ -1,0 +1,33 @@
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid rgb(209, 204, 204);
+    border-collapse: collapse;
+}
+
+.shopping-cart {
+    width: 100%;
+}
+
+.product-thumbnail {
+    max-width: 100px;
+}
+
+.shopping-cart {
+    display: none;
+}
+
+#show-shopping-cart {
+    display: none;
+}
+
+#show-shopping-cart:checked+.shopping-cart {
+    display: table;
+}

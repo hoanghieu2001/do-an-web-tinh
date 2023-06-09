@@ -1,26 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>CSS Triangle UP</title>
     <meta charset="UTF-8" />
-    <style>
-        .info-ticket:after {
-            content: "";
-            position: absolute;
-            width: 0;
-            height: 0;
-            border-top: 17px solid #D73831;
-            border-left: 7px solid transparent;
-            bottom: -16px;
-            left: 0px;
-            z-index: -1;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="demo.css" />
 </head>
 
 <body>
-    <div class="info-ticket seller">Best Seller</div>
+    <label for="show-shopping-cart">Show shopping cart</label>
+    <h1>Shopping Cart</h1>
+
+    <div class="shopping-cart-empty">
+        <h3>Nothing here</h3>
+    </div>
+
+    <input type="checkbox" name="" id="show-shopping-cart" />
+
+    <table class="shopping-cart">
+        <thead class="shopping-cart-columns">
+            <tr>
+                <th>Thumbnail</th>
+                <th>Info</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody class="cart-items">
+            <tr class="cart-item">
+                <td>
+                    <div class="product-thumbnail">
+                        <img src="https://i.9mobi.vn/cf/Images/huy/2021/12/6/anh-gai-xinh-2.jpg" alt="" />
+                    </div>
+                </td>
+                <td>
+                    <div class="product-info">
+                        <div class="product-title">Product 1</div>
+                        <div class="product-price">1000</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-quantity">
+                        <button class="btn-down">Down</button>
+                        <span class="quantity">1</span>
+                        <button class="btn-up">Up</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="cart-item-price">1000</div>
+                </td>
+                <td>
+                    <div class="cart-item-actions">
+                        <button>Delete</button>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="cart-item">
+                <td>
+                    <div class="product-thumbnail">
+                        <img src="https://i.9mobi.vn/cf/Images/huy/2021/12/6/anh-gai-xinh-2.jpg" alt="" />
+                    </div>
+                </td>
+                <td>
+                    <div class="product-info">
+                        <div class="product-title">Product 2</div>
+                        <div class="product-price">500</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-quantity">
+                        <button class="btn-down">Down</button>
+                        <span class="quantity">2</span>
+                        <button class="btn-up">Up</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="cart-item-price">1000</div>
+                </td>
+                <td>
+                    <div class="cart-item-actions">
+                        <button>Delete</button>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="cart-item">
+                <td>
+                    <div class="product-thumbnail">
+                        <img src="https://i.9mobi.vn/cf/Images/huy/2021/12/6/anh-gai-xinh-2.jpg" alt="" />
+                    </div>
+                </td>
+                <td>
+                    <div class="product-info">
+                        <div class="product-title">Product 3</div>
+                        <div class="product-price">2000</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-quantity">
+                        <button class="btn-down">Down</button>
+                        <span class="quantity">1</span>
+                        <button class="btn-up">Up</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="cart-item-price">2000</div>
+                </td>
+                <td>
+                    <div class="cart-item-actions">
+                        <button>Delete</button>
+                    </div>
+                </td>
+            </tr>
+
+            <tr class="cart-item">
+                <td>
+                    <div class="product-thumbnail">
+                        <img src="https://i.9mobi.vn/cf/Images/huy/2021/12/6/anh-gai-xinh-2.jpg" alt="" />
+                    </div>
+                </td>
+                <td>
+                    <div class="product-info">
+                        <div class="product-title">Product 4</div>
+                        <div class="product-price">1500</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="product-quantity">
+                        <button class="btn-down">Down</button>
+                        <span class="quantity">2</span>
+                        <button class="btn-up">Up</button>
+                    </div>
+                </td>
+                <td>
+                    <div class="cart-item-price">3000</div>
+                </td>
+                <td>
+                    <div class="cart-item-actions">
+                        <button>Delete</button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td class="total-quantity">4</td>
+                <td class="total-price">4000</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- <script src="data.js"></script> -->
+    <script src="demo.js"></script>
 </body>
 
 </html>
