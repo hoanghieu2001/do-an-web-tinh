@@ -268,13 +268,20 @@ h5>a {
     header {
         /* flex-wrap: nowrap; */
         display: none !important;
+        height: 30px;
 
+    }
+
+    .nav-search {
+        display: none;
 
     }
 
     .sale0 {
         display: none !important;
     }
+
+
 
 
 }
@@ -287,7 +294,9 @@ h5>a {
         display: none;
     }
 
-    .sale0 {}
+    .ivy-banner {
+        display: none;
+    }
 
 }
 

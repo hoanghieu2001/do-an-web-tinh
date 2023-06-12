@@ -116,85 +116,68 @@
     <div id="main">
 
 
-        <!-- <div class="container max-width col-12 ">
-            <header
-                class="row  d-xl-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-                <div class="mb-2 mb-md-0 col-md-2 name-store">
-                    <a href="../public/index.html" class=" d-inline-flex link-body-emphasis text-decoration-none">
 
-                        SNAKE-STORE
-                    </a>
-                </div>
+        <nav class=" navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+            <div class="container-fluid align-items-center">
+                <a class="navbar-brand" href="#">SNAKE-STORE</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
+                        <ul class="nav col-12 col-md-auto mb-2 justify-content-center  mb-md-0">
+                            <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
+                            <li><a href="#" class="nav-link px-2">NEW</a></li>
+                            <li><a href="#" class="nav-link px-2" data-bs-target="#exampleModalToggle"
+                                    data-bs-toggle="modal">HOTLINE</a>
+                            </li>
+                            <li><a href="./showrooms.html" class="nav-link px-2">SHOWROOMS</a></li>
+                            <li><a href="#" class="nav-link px-2">ABOUT</a></li>
+                        </ul>
 
-                <ul class="nav col-12 col-md-8 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
-                    <li><a href="#" class="nav-link px-2">NEW</a></li>
-                    <li><a href="#" class="nav-link px-2">HOTLINE</a></li>
-                    <li><a href="#" class="nav-link px-2">SHOWROOMS</a></li>
-                    <li><a href="#" class="nav-link px-2">ABOUT</a></li>
-                </ul>
-
-                <div class="col-md-3 text-end btn-2">
-                    <form class="- nav-search  col-lg-auto mb-3 mb-lg-0 me-lg-3 position-absolute" role="search">
-                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button style=" border: solid 1px;" class="btn btn-light" type="submit"><i
+                                class="bi bi-person-circle btn-light"></i></button>
+                        <button style=" border: solid 1px;" class="ms-2 btn btn-light" type="submit"><i
+                                class="bi bi-cart-fill "></i></button>
                     </form>
-
-                    <div type="button" class="btn btn-dark"><a href="../public/users/index.html">
-                            <i class="bi bi-person-circle text-light">
-
-                            </i>
-                        </a>
+                </div>
+            </div>
+        </nav>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Link liên hệ trực tiếp với quản lý
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-
-                </div>
-            </header>
-        </div> -->
-        <div class="container max-width col-12 ">
-            <header
-                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-                <div class="col-md-3 mb-2 mb-md-0">
-                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-                        <!-- <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
-                                                    <use xlink:href="#bootstrap" />
-                                                </svg> -->
-                        SNAKE-STORE
-                    </a>
-                </div>
-
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
-                    <li><a href="#" class="nav-link px-2">NEW</a></li>
-                    <li><a href="#" class="nav-link px-2">HOTLINE</a></li>
-                    <li><a href="#" class="nav-link px-2">SHOWROOMS</a></li>
-                    <li><a href="#" class="nav-link px-2">ABOUT</a></li>
-                </ul>
-
-                <div class="col-md-3 text-end">
-                    <form class="nav-search col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 position-absolute" role="search">
-                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-                    </form>
-                    <!-- <button type="" class="  border-bottom btn be-2 btn-outline-dark me-2 ">Search</button> -->
-                    <div type="button" class="btn btn-dark"><a href="./users/index.html">
-                            <i class="bi bi-person-circle text-light">
-
-                            </i>
-                        </a>
+                    <div class="modal-body">
+                        <img style="width: 480px;" src="./images/qr-code.png" alt="">
                     </div>
-
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">Quay
+                            lại trang chủ</button>
+                    </div>
                 </div>
-            </header>
+            </div>
         </div>
 
 
         <div class="container">
-            <section class="banner-img">
+            <section class="banner-img col-12">
                 <swiper-container class=" mySwiper" pagination="true" pagination-clickable="true" navigation="true"
                     space-between="30" centered-slides="true" autoplay-delay="3000"
                     autoplay-disable-on-interaction="false" loop="true">
-                    <swiper-slide><img style="height: 527px;" src="./images/banner1.webp" alt=""></swiper-slide>
-                    <swiper-slide><img style="height: 527px;" src="./images/d8365491cc713cd35475b1bc17d7dd09.png"
-                            alt=""></swiper-slide>
-                    <swiper-slide><img style="height: 527px;" src="./images/summer.png" alt=""></swiper-slide>
+                    <swiper-slide><img src="./images/banner1.webp" alt=""></swiper-slide>
+                    <swiper-slide><img src="./images/d8365491cc713cd35475b1bc17d7dd09.png" alt=""></swiper-slide>
+                    <swiper-slide><img src="./images/summer.png" alt=""></swiper-slide>
 
                 </swiper-container>
             </section>
@@ -336,7 +319,7 @@
 
                                         <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12">
                                             <article class="series position-relative p-10 ms-2">
-                                                <a href="" class="series-link d-block">
+                                                <a href="./product.html" class="series-link d-block">
                                                     <img class="series-poster mw-100" src="./images/sp1.webp" alt="" />
                                                     <span class=""> <img class="position-absolute top-0  text-light "
                                                             style="left: -9px; z-index: 1;"
@@ -373,12 +356,13 @@
                     <section>
                         <section class="section-content mt-3">
                             <div class="tab-content">
-                                <div id="new-updated-series" class="tab-pane fade show active new-updated-series">
-                                    <!-- <div id="herder-anh"> -->
-                                    <div class="row g-2 mb q-4" id="herder-anh">
-                                    </div>
-                                    <!-- </div> -->
+                                <!-- <div id="new-updated-series" class="tab-pane fade show active new-updated-series"> -->
+                                <!-- <div id="herder-anh"> -->
+                                <div class="row g-2 mb q-4" id="herder-anh" style="display: none;">
+
                                 </div>
+                                <!-- </div> -->
+                                <!-- </div> -->
                             </div>
                         </section>
                     </section>
@@ -392,14 +376,14 @@
                             <button id="button" class="btn-dark btn1">Xem tất
                                 cả</button>
                         </div>
-                        <div class="mt-4">
+                        <div class="mt-4 col-12">
                             <img style="width: 100%;" class=" " src="./images/bgk ivymodal.jpg" alt="">
                         </div>
-                        <div class="row mt-4">
-                            <div class="col-6">
+                        <div class="row mt-4 ivy-banner d-none d-xl-flex d-lg-flex d-md-flex ">
+                            <div class="col-xl-6 ">
                                 <img class="mw-100" src="./images/item ivy1.png" alt="">
                             </div>
-                            <div class="col-6">
+                            <div class="col-xl-6">
                                 <img class="mw-100" src="./images/item ivy2.png" alt="">
                             </div>
                         </div>
@@ -428,7 +412,7 @@
                                     </a>
                                 </article>
                             </div>
-                            <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12">
+                            <div class="col-sm-4 col-xxl-3 mt-2  col-xs-12">
                                 <article class="series position-relative p-10">
                                     <a href="" class="series-link d-block">
                                         <img class="series-poster mw-100" src="./images/anh4.webp" alt="" />
@@ -499,15 +483,15 @@
                                 </div>
                             </div>
                             <div class="row list-item">
-                                <div class="item col-4 ">
+                                <div class="item col-xl-4 ">
                                     <img class="mw-100" src="./images/item1.png" alt="">
                                     <p style="font-family:Montserrat ;" class=""> Á hậu Phương Nga & Bình An</p>
                                 </div>
-                                <div class="item col-4">
+                                <div class="item col-12 col-xl-4">
                                     <img class="mw-100" src="./images/item2.png" alt="">
                                     <p class=""> Linh Rin</p>
                                 </div>
-                                <div class="item col-4">
+                                <div class="item col-12 col-xl-4">
                                     <img style="font-family:Montserrat ;" class="mw-100 " src="./images/item3.png"
                                         alt="">
                                     <p class="text-center">Helly Tong</p>
@@ -521,11 +505,11 @@
 
 
             <section>
-                <div class="swiper" loop="true">
-                    <div class="btn1">
+                <div class="swiper row" loop="true">
+                    <div class="btn1 col-12">
                         <a style="font-family: Montserrat;" class="mb-3">Mix & Match</a>
                     </div>
-                    <div class="swiper-wrapper" loop="true">
+                    <div class="swiper-wrapper col-12" loop="true">
                         <div class="swiper-slide "><img class="mw-100 pe-2" src="./images/mix1.png" alt=""></div>
                         <div class="swiper-slide"><img class="mw-100 pe-2" src="./images/mix2.png" alt=""></div>
                         <div class="swiper-slide"><img class="mw-100 pe-2" src="./images/mix3.png" alt=""></div>
@@ -591,7 +575,7 @@
                                 </ul>
                             </div>
 
-                            <div class="col-md-5 offset-md-1 mb-3">
+                            <div class="col-md-5 offset-md-1 mb-3 col-6">
                                 <form>
                                     <h5>Nhập thông tin các trương trình của SNAKE-STORE</h5>
                                     <p>Nhập thông tin địa chỉa email</p>

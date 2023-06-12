@@ -140,13 +140,16 @@ function updateProduct(limit) {
 //         // updateProduct(8);
 //     });
 // });
+const openElement = document.querySelector(".open");
 const sanPhamContainer = document.getElementById("herder-anh"); // Sử dụng document.getElementById thay vì document.querySelectorID
 document.getElementById("button").addEventListener("click", function () {
-
-    var productHTML = "";
-    for (var i = 0; i < product.length; i++) {
-        var currentProduct = product[i];
-        productHTML += `
+    debugger
+    if (sanPhamContainer.style.display == "none") {
+        sanPhamContainer.style.display = "flex"
+        var productHTML = "";
+        for (var i = 0; i < product.length; i++) {
+            var currentProduct = product[i];
+            productHTML += `
                                         <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12 p">
                                             <article class="series position-relative p-10 ms-2">
                                                 <a href="" class="series-link d-block">
@@ -180,8 +183,19 @@ document.getElementById("button").addEventListener("click", function () {
                                             </article>
                                         </div>
     `;
+        }
+        sanPhamContainer.innerHTML = productHTML;
     }
-    sanPhamContainer.innerHTML = productHTML;
+    else if (sanPhamContainer.style.display == "flex") {
+        sanPhamContainer.style.display = "none"
+    }
+
+    // if (sanPhamContainer === open) {
+    //     return ''
+    // } else {
+    //     return 
+    // }
+    //
 
     // document.getElementById("herder-anh").innerHTML = productHTML;
     // updateProduct(4);

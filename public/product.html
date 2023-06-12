@@ -38,43 +38,59 @@
 </head>
 
 <body>
-    <div class="container max-width col-12 ">
-        <header
-            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-                    <!-- <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
-                                            <use xlink:href="#bootstrap" />
-                                        </svg> -->
-                    SNAKE-STORE
-                </a>
-            </div>
+    <nav class=" navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+        <div class="container-fluid align-items-center">
+            <a class="navbar-brand" href="./index.html">SNAKE-STORE</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto me-auto my-2 my-lg-0 navbar-nav-scroll"
+                    style="--bs-scroll-height: 100px;">
+                    <ul class="nav col-12 col-md-auto mb-2 justify-content-center  mb-md-0">
+                        <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
+                        <li><a href="#" class="nav-link px-2">NEW</a></li>
+                        <li><a href="#" class="nav-link px-2" data-bs-target="#exampleModalToggle"
+                                data-bs-toggle="modal">HOTLINE</a>
+                        </li>
+                        <li><a href="./showrooms.html" class="nav-link px-2">SHOWROOMS</a></li>
+                        <li><a href="#" class="nav-link px-2">ABOUT</a></li>
+                    </ul>
 
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
-                <li><a href="#" class="nav-link px-2">NEW</a></li>
-                <li><a href="#" class="nav-link px-2">HOTLINE</a></li>
-                <li><a href="#" class="nav-link px-2">SHOWROOMS</a></li>
-                <li><a href="#" class="nav-link px-2">ABOUT</a></li>
-            </ul>
-
-            <div class="col-md-3 text-end">
-                <form class="nav-search col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 position-absolute" role="search">
-                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button style=" border: solid 1px;" class="btn btn-light" type="submit"><i
+                            class="bi bi-person-circle btn-light"></i></button>
+                    <button style=" border: solid 1px;" class="ms-2 btn btn-light" type="submit"><i
+                            class="bi bi-cart-fill "></i></button>
                 </form>
-                <!-- <button type="" class="  border-bottom btn be-2 btn-outline-dark me-2 ">Search</button> -->
-                <div type="button" class="btn btn-dark"><a href="./sign-in.html">
-                        <i class="bi bi-person-circle text-light">
-
-                        </i>
-                    </a>
-                </div>
-
             </div>
-        </header>
+        </div>
+    </nav>
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Link liên hệ trực tiếp với quản lý
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 480px;" src="./images/qr-code.png" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Quay
+                        lại trang chủ</button>
+                </div>
+            </div>
+        </div>
     </div>
+
     <!-- sp -->
-    <div class="breadcrums d-flex align-items-center mb-4">
+    <!-- <div class="breadcrums d-flex align-items-center mb-4">
         <div class="container">
             <li>
                 <a href="/">Trang chủ</a>
@@ -88,8 +104,8 @@
                 <a>Tên sản phẩm</a>
             </li>
         </div>
-    </div>
-    <div class="main_product">
+    </div> -->
+    <div class="main_product ">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-5 col-sm-7 col-lg-7 col-md-6">
@@ -216,12 +232,12 @@
 
                                 <div class=" p-2 rounded-3 text-center d-inline-block">
                                     <!-- <img src="image/cartred.png" alt="Mua ngay"> -->
-                                    <button class="btn-light btn">Mua</button>
+                                    <button class="btn-light btn buy">Mua</button>
 
                                 </div>
                                 <div class=" p-2 rounded-3 text-center d-inline-block">
                                     <!-- <img src="image/cartred.png" alt="Mua ngay"> -->
-                                    <button class="btn btn-light">Thêm vào giỏ hàng</button>
+                                    <button class="btn btn-light buy">Thêm vào giỏ hàng</button>
 
                                 </div>
                             </div>
