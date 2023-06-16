@@ -21,9 +21,13 @@ a.d-inline-flex {
     font-size: 25px;
 }
 
-header {
+/* header {
     position: relative;
 
+} */
+
+nav {
+    z-index: 4;
 }
 
 /* header{
@@ -332,4 +336,24 @@ header {
 
 .section-movies {
     margin-top: 140px;
+}
+
+.search-form {
+    border: solid 1px #070707;
+    border-radius: 20px;
+}
+
+.icon-nav {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(49, 138, 234);
+    top: 80%;
+    left: 94%;
+}
+
+.bi-telephone-inbound-fill {
+    position: absolute;
+    margin: 23px;
 }
