@@ -60,35 +60,37 @@
 </head>
 
 <body>
-    <nav class=" navbar navbar-expand-lg bg-body-tertiary justify-content-center">
+    <nav class=" navbar navbar-expand-lg bg-body-tertiary justify-content-center position-fixed w-100 ">
         <div class="container-fluid align-items-center">
-            <a class="navbar-brand" href="#">SNAKE-STORE</a>
+            <a class="navbar-brand" href="index.html">SNAKE-STORE</a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav ms-auto me-auto my-2 my-lg-0 navbar-nav-scroll"
+                <ul class="navbar-nav ms-auto me-auto ps-5 my-2 my-lg-0 navbar-nav-scroll"
                     style="--bs-scroll-height: 100px;">
                     <ul class="nav col-12 col-md-auto mb-2 justify-content-center  mb-md-0">
-                        <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
-                        <li><a href="#" class="nav-link px-2">NEW</a></li>
+                        <li><a href="index.html" class="nav-link px-2 link-secondary">HOME</a></li>
+                        <li><a href="./blog.html" class="nav-link px-2">BLOG</a></li>
                         <li><a href="#" class="nav-link px-2" data-bs-target="#exampleModalToggle"
                                 data-bs-toggle="modal">HOTLINE</a>
                         </li>
-                        <li><a href="#" class="nav-link px-2">SHOWROOMS</a></li>
-                        <li><a href="#" class="nav-link px-2">ABOUT</a></li>
+                        <li><a href="./showrooms.html" class="nav-link px-2">SHOWROOMS</a></li>
+                        <li><a href="demo.html" class="nav-link px-2">PRODUCTS</a></li>
                     </ul>
 
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button style=" border: solid 1px;" class="btn btn-light" type="submit"><i
-                            class="bi bi-person-circle btn-light"></i></button>
-                    <button style=" border: solid 1px;" class="ms-2 btn btn-light show-shopping-cart " type="submit"><i
-                            class="bi bi-cart-fill  "></i></button>
-
+                <form class="d-flex me-2 " role="search">
+                    <input class="form-control " style="border:1px solid #474242;" type="search" placeholder="Search"
+                        aria-label="Search">
                 </form>
+
+                <a href="./modals.html"><button style=" border: solid 1px #474242;" class="btn btn-light"
+                        type="submit"><i class="bi bi-person-circle btn-light"></i></button></a>
+                <a href="./tinh-tien.html"><button style=" border: solid 1px #474242;" class="ms-2 btn btn-light"
+                        type="submit"><i class="bi bi-cart-fill "></i></button></a>
+
             </div>
         </div>
     </nav>

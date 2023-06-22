@@ -351,10 +351,11 @@ header {
     background-color: rgb(49, 138, 234);
     top: 80%;
     left: 94%;
+
 }
 
 .bi-telephone-inbound-fill {
     position: absolute;
     margin: 25px;
-
+    color: rgb(13, 13, 196);
 }

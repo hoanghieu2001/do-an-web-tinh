@@ -21,6 +21,10 @@
         rel="stylesheet">
     <!-- link sản phẩm bán chạy -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
 
 
 
@@ -113,6 +117,8 @@
 </head>
 
 <body>
+
+
     <div id="main">
 
 
@@ -129,7 +135,7 @@
                         style="--bs-scroll-height: 100px;">
                         <ul class="nav col-12 col-md-auto mb-2 justify-content-center  mb-md-0">
                             <li><a href="index.html" class="nav-link px-2 link-secondary">HOME</a></li>
-                            <li><a href="#" class="nav-link px-2">NEW</a></li>
+                            <li><a href="./blog.html" class="nav-link px-2">BLOG</a></li>
                             <li><a href="#" class="nav-link px-2" data-bs-target="#exampleModalToggle"
                                     data-bs-toggle="modal">HOTLINE</a>
                             </li>
@@ -143,16 +149,16 @@
                             placeholder="Search" aria-label="Search">
                     </form>
 
-                    <button style=" border: solid 1px #474242;" class="btn btn-light" type="submit"><i
-                            class="bi bi-person-circle btn-light"></i></button>
-                    <button style=" border: solid 1px #474242;" class="ms-2 btn btn-light" type="submit"><i
-                            class="bi bi-cart-fill "></i></button>
+                    <a href="./modals.html"><button style=" border: solid 1px #474242;" class="btn btn-light"
+                            type="submit"><i class="bi bi-person-circle btn-light"></i></button></a>
+                    <a href="./tinh-tien.html"><button style=" border: solid 1px #474242;" class="ms-2 btn btn-light"
+                            type="submit"><i class="bi bi-cart-fill "></i></button></a>
 
                 </div>
             </div>
         </nav>
         <div class="icon-nav">
-            <i class="bi bi-telephone-inbound-fill"></i>
+            <a href=""><i class="bi bi-telephone-inbound-fill"></i></a>
         </div>
         <!-- <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
             tabindex="-1">
@@ -265,7 +271,39 @@
                                                 </a>
                                             </article>
                                         </div>
-                                        <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12">
+                                        <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12 p">
+                                            <article class="series position-relative p-10 ms-2">
+                                                <a href="" class="series-link d-block">
+                                                    <img class="series-poster mw-100" src="./images/anh4.webp" alt="" />
+                                                    <span class=" d-block"> <img
+                                                            class="position-absolute top-0  text-light "
+                                                            style="left: -9px; z-index: 1;"
+                                                            src="./images/bg-seller.png " alt="">
+                                                        <p class="position-absolute  text-light "
+                                                            style="z-index: 2; text-align: center; top: 4px; left: 9px;">
+                                                            Best Seller </p>
+                                                    </span>
+
+                                                    <div id="triangle-up"></div>
+                                                    <div id="triangle-down"></div>
+                                                    <div id="triangle-left"></div>
+                                                    <div id="triangle-right"></div>
+                                                    <span>
+
+                                                        <h5>
+                                                            <a href="">Bộ đầm họa tiết xanh chấm hoa</a>
+                                                            <div class="price">
+                                                                <a href="">1.300.000VND</a>
+                                                                <i class="bi bi-handbag"></i>
+                                                            </div>
+                                                        </h5>
+                                                    </span>
+
+
+                                                </a>
+                                            </article>
+                                        </div>
+                                        <!-- <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12">
                                             <article class="series position-relative p-10 ms-2">
                                                 <a href="" class="series-link d-block">
                                                     <img class="series-poster mw-100" src="./images/anh4.webp" alt="" />
@@ -292,7 +330,7 @@
 
                                                 </a>
                                             </article>
-                                        </div>
+                                        </div> -->
                                         <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12">
                                             <article class="series position-relative p-10 ms-2">
                                                 <a href="" class="series-link d-block">
@@ -418,7 +456,7 @@
                                     </a>
                                 </article>
                             </div>
-                            <div class="col-sm-4 col-xxl-3 mt-2  col-xs-12">
+                            <div class="col-sm-4 col-xxl-3 mt-2 col-sm-6 col-xs-12">
                                 <article class="series position-relative p-10">
                                     <a href="" class="series-link d-block">
                                         <img class="series-poster mw-100" src="./images/anh4.webp" alt="" />
@@ -589,7 +627,7 @@
                                         <label for="newsletter1" class="visually-hidden">Email address</label>
                                         <input id="newsletter1" type="text" class="form-control"
                                             placeholder="Email address">
-                                        <button class="btn btn-dark" type="button">Subscribe</button>
+                                        <button class="btn btn-dark thong-bao" type="button">Subscribe</button>
                                     </div>
                                 </form>
                             </div>
@@ -663,6 +701,8 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <!-- bật sáng màn -->
 
 
 </body>

@@ -200,3 +200,8 @@ document.getElementById("button").addEventListener("click", function () {
     // document.getElementById("herder-anh").innerHTML = productHTML;
     // updateProduct(4);
 });
+/// Thông báo sự kiện click
+const clickme = document.querySelector(".thong-bao");
+clickme.addEventListener("click", (event) => {
+    alert('Gửi mail thành công')
+})
