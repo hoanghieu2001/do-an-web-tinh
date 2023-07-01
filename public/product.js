@@ -113,3 +113,13 @@ const popup = new Popup({
   titleMargin: "0",
   backgroundColor: "#ffebfe",
 });
+// sự kiện thêm vào giỏ hàng
+// const clickme = document.querySelector(".card-alert");
+// clickme.addEventListener("click", (event) => {
+//   alert('Thêm sản phẩm vào giỏ hàng thành công')
+// })
+
+// const ngu = document.querySelector(".thong-bao");
+// ngu.addEventListener("click", (event) => {
+//   alert('Thêm sản phẩm vào giỏ hàng thành công')
+// })

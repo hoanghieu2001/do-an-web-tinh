@@ -285,9 +285,23 @@ h5>a {
         display: none !important;
     }
 
+    ul .nav {
+        display: block;
+        position: relative;
+        left: -40px;
+    }
 
+    .search {
+        width: 200px;
+    }
 
-
+    .form {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        top: -38px;
+        left: -30px;
+    }
 }
 
 @media (max-width:756px) {
@@ -301,6 +315,8 @@ h5>a {
     .ivy-banner {
         display: none;
     }
+
+
 
 }
 
@@ -317,6 +333,14 @@ h5>a {
     .name-store a {
         font-size: 5px;
 
+    }
+
+    .visually-hidden {
+        display: block;
+    }
+
+    .thong-bao {
+        display: block;
     }
 }
 

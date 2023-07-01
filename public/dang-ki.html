@@ -231,7 +231,7 @@
                             <label for="floatingPassword">Mật khẩu</label>
                         </div>
                         <!-- <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Đăng nhập</button> -->
-                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit"><a
+                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary register" type="submit"><a
                                 style="color: #fff; text-decoration: none;" href="./modals.html">Đăng kí</a></button>
                         <small class="text-body-secondary">Nếu bạn chưa có tài khoản, vui lòng bấm vào đăng kí</small>
                         <hr class="my-4">
@@ -424,6 +424,11 @@
                     })
             })
         })()
+
+        const clickme = document.querySelector(".register");
+        clickme.addEventListener("click", (event) => {
+            alert('Chúc mừng bạn đã đăng kí thành công')
+        });
 
     </script>
 </body>
